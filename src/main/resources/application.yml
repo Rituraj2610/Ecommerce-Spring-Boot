@@ -1,0 +1,71 @@
+spring:
+      application:
+                  name: ecommerce
+      data:
+        mongodb:
+          uri: mongodb+srv://26rituraj:3EngS0rUN1CoxNFj@cluster0.7ltnn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+          ssl:
+            enabled: true
+          database: model
+          auto-index-creation: true
+      main:
+        allow-circular-references: true
+      web:
+        cors:
+          allowed-origin-patterns: http://localhost:3000
+          allowed-methods: GET,POST,PUT,DELETE
+          allowed-headers: ["*"]
+          allow-credentials: true
+      servlet:
+        multipart:
+          enabled: true
+          max-file-size: 10MB
+          max-request-size: 10MB
+      mail:
+        host: smtp.gmail.com
+        port: 587
+        username: 26rituraj@gmail.com
+        password: dwmp hkwk dunm ajen
+        properties:
+          mail:
+            smtp:
+              auth: true
+              starttls:
+                enable: true
+
+
+#logging:
+#  level:
+#    root: INFO
+#    com:
+#      rituraj:
+#        ecommerce: DEBUG
+#    org:
+#      hibernate: ERROR
+#      springframework:
+#        web : info
+#        data:
+#          mongodb:
+#            core:
+#              MongoTemplate: DEBUG
+#              MongoClientFactoryBean: DEBUG
+
+
+
+#CLOUDINARY
+cloudinary:
+  cloud-name: dq2ddtofr
+  api-key: 853566878661714
+  api-secret: HRbq3ollp3EkCUV1qolMBeIEpaY
+
+server:
+  servlet:
+    session:
+      cookie:
+        http-only: true
+        secure: false
+        max-age: 360000
+        path: /
+
+
+
