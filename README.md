@@ -17,7 +17,7 @@ This project is a robust e-commerce website built using **Spring Boot**. It foll
 ## **Visual Helpers**  
 ### Add diagrams and screenshots here  
 - Application architecture.  
-  ![E-Commerce Architecture](https://github.com/Rituraj2610/Ecommerce-Spring-Boot/blob/main/images/ER%20Diagram.png)
+  ![E-Commerce Architecture](https://github.com/Rituraj2610/Ecommerce-Spring-Boot/blob/main/images/architectural%20Diagram.svg)
 
 - ER diagrams for MongoDB collections. 
   ![Database ER Diagram](https://github.com/Rituraj2610/Ecommerce-Spring-Boot/blob/main/images/ER%20Diagram.png)
@@ -158,8 +158,8 @@ This project is a robust e-commerce website built using **Spring Boot**. It foll
 
 ---
 
-## Frontend
-- The frontend for this project is available on GitHub. It provides a user-friendly interface for buyers, sellers, and admins.
+## Frontend and API List
+- The frontend for this project is available on GitHub. Api Lists are available in Readme.md of frontend. It provides a user-friendly interface for buyers, sellers, and admins.
 
   [Frontend Repository](https://github.com/Rituraj2610/Frontend-Ecommerce)
 
