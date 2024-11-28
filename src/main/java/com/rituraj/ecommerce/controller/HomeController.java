@@ -41,7 +41,7 @@ public class HomeController {
      * Method: registerSeller
      * Role: POST: Registers sellers and sends otp
      */
-    @PostMapping("/seller/register")
+        @PostMapping("/seller/register")
     public ResponseEntity<String> registerSeller(@RequestBody UserRegisterRequestDTO sellerRequestDTO) throws NoSuchAlgorithmException {
         String msg = dtoConversionService.registerSeller(sellerRequestDTO);
         return ResponseEntity.ok(msg);
