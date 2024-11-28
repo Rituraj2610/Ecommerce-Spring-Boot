@@ -16,7 +16,7 @@ public class EcommerceApplication {
 	@PostConstruct
 	public void init() {
 		// Create logs directory if it doesn't exist
-		File logsDir = new File("/home/crest/Documents/var/logs/ecommerce");
+		File logsDir = new File("<your.package.name>");
 		if (!logsDir.exists()) {
 			logsDir.mkdirs();
 		}
