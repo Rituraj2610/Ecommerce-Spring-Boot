@@ -13,18 +13,18 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Document("product")
-public class Product {
-    @Id
-    private String id;
-    private String sellerId;
-    private String name;
-    private double price;
-    private String description;
-    private String category;
-    private int stock;
-    private List<String> reviewId;
-    private List<String> imageUrls; // New field for storing image URLs
-}
+    public class Product {
+        @Id
+        private String id;
+        private String sellerId;
+        private String name;
+        private double price;
+        private String description;
+        private String category;
+        private int stock;
+        private List<String> reviewId;
+        private List<String> imageUrls; // New field for storing image URLs
+    }
 
 
 // BEFORE IMAGE WAS ADDED

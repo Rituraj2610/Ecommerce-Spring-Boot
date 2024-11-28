@@ -60,35 +60,3 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
     }
 
 }
-
-
-//@Component
-//public class JwtAuthenticationFilter extends OncePerRequestFilter {
-//    private final JwtUtil jwtUtil;
-//    private final CustomUserDetailsService userDetailsService;
-//
-//    public JwtAuthenticationFilter(JwtUtil jwtUtil, CustomUserDetailsService userDetailsService) {
-//        this.jwtUtil = jwtUtil;
-//        this.userDetailsService = userDetailsService;
-//    }
-//
-//    @Override
-//    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-//        String token = request.getHeader("Authorization");
-//
-//        if (token != null && jwtUtil.validateToken(token)) {
-//            Claims claims = jwtUtil.extractClaims(token);
-//            String email = claims.getSubject();
-//            String role = claims.get("roles", String.class);
-//
-//            UserDetails userDetails = userDetailsService.loadUserByUsername(email);
-//            if (userDetails != null) {
-//                SecurityContextHolder.getContext().setAuthentication(
-//                        new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities())
-//                );
-//            }
-//        }
-//        filterChain.doFilter(request, response);
-//    }
-//}
-
