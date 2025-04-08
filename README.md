@@ -15,7 +15,7 @@ This project is a robust e-commerce website built using **Spring Boot**. It foll
 ---
 
 ## **Visual Helpers**  
-### Add diagrams and screenshots here  
+
 - Application architecture.  
   ![E-Commerce Architecture](https://github.com/Rituraj2610/Ecommerce-Spring-Boot/blob/main/images/architectural%20Diagram.svg)
 
